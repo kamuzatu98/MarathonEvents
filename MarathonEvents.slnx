@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MarathonEvents.Tests/MarathonEvents.Tests.csproj" Id="da2d2d29-fbaa-4477-b797-08c1dac3b9e0" />
+  <Project Path="MarathonEvents/MarathonEvents.API.csproj" />
+</Solution>

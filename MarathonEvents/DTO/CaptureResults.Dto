@@ -1,0 +1,18 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MarathonEvents.API.DTOs
+{
+    public class CaptureResultDto
+    {
+        [Required]
+        public int EnrollmentId { get; set; }
+
+        [Required]
+        public TimeSpan FinishTime { get; set; }
+
+        [Required]
+        public int FinishPosition { get; set; }
+
+        public bool IsPublished { get; set; } = true;
+    }
+}
